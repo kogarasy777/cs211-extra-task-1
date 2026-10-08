@@ -25,3 +25,6 @@ int get_seconds(int seconds);
 
 //Возвращает время в UTC+0,
 double time_to_utc(int utc_offset, double time);
+
+//Возвращает время в часовом поясе utc_offset
+double time_from_utc(int utc_offset, double time);
