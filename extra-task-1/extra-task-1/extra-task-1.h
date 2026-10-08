@@ -13,3 +13,12 @@ double to_float_hours(int hours, int minutes, int seconds);
 
 //Возвращает час так, как он отображается на 24-часовом циферблате
 double to_24_hour_clock(double hours);
+
+//Возвращает часы с времени в секундах
+int get_hours(int seconds);
+
+//Возвращает минуты с времени в секундах
+int get_minutes(int seconds);
+
+//Возвращает секунды с времени в секундах
+int get_seconds(int seconds);
