@@ -3,37 +3,22 @@
 //Возвращает количество секунд, на сколько time_2 больше time_1
 double seconds_difference(double time_1, double time_2)
 {
-    // your implementation goes here...
     return (time_2 - time_1);
 }
 
+//Возвращает количество часов, на сколько time_2 больше time_1
 double hours_difference(double time_1, double time_2)
 {
-    return 0;
-    /*
-        Return the number of hours later that a time in seconds
-        time_2 is than a time in seconds time_1.
-            
-        >>> hours_difference(1800.0, 3600.0)
-        0.5
+    return seconds_difference(time_1, time_2) / 3600;
 
-        >>> hours_difference(3600.0, 1800.0)
-        -0.5
-
-        >>> hours_difference(1800.0, 2160.0)
-        0.1
-
-        >>> hours_difference(1800.0, 1800.0)
-        0.0
-    */
 }
 
+//Возвращает общее количество часов в указанном количестве часов, минут и секунд.
 double to_float_hours(int hours, int minutes, int seconds)
 {
     return 0;
     /*
-        Return the total number of hours in the specified number
-        of hours, minutes, and seconds.
+      
 
         Precondition: 0 <= minutes < 60  and  0 <= seconds < 60
 
