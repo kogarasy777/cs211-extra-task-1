@@ -22,3 +22,6 @@ int get_minutes(int seconds);
 
 //Возвращает секунды с времени в секундах
 int get_seconds(int seconds);
+
+//Возвращает время в UTC+0,
+double time_to_utc(int utc_offset, double time);
